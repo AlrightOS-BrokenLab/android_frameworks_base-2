@@ -10326,6 +10326,12 @@ public final class Settings {
                 "device_state_rotation_lock";
 
         /**
+         * Quicksettings tile shape
+         * @hide
+         */
+        public static final String QS_TILE_SHAPE = "qs_tile_shape";
+
+        /**
          * These entries are considered common between the personal and the managed profile,
          * since the managed profile doesn't get to change them.
          */
