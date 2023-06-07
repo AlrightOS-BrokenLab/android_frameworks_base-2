@@ -62,6 +62,7 @@ import com.android.server.biometrics.sensors.LockoutResetDispatcher;
 import com.android.server.biometrics.sensors.LockoutTracker;
 import com.android.server.biometrics.sensors.face.aidl.FaceProvider;
 import com.android.server.biometrics.sensors.face.hidl.Face10;
+import com.android.server.libremobileos.FaceUnlockService;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -691,6 +692,7 @@ public class FaceService extends SystemService {
                         }
                     }
                 }
+                FaceUnlockService.onInitComplete();
             });
         }
     }
