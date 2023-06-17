@@ -21,6 +21,9 @@ import static com.android.keyguard.KeyguardAbsKeyInputView.MINIMUM_PASSWORD_LENG
 import android.os.AsyncTask;
 import android.provider.Settings;
 import android.view.View;
+import android.os.UserHandle;
+import java.util.Arrays;
+import java.util.List;
 
 import com.android.internal.util.LatencyTracker;
 import com.android.internal.widget.LockPatternUtils;
