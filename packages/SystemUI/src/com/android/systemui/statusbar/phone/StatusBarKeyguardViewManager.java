@@ -1009,9 +1009,6 @@ public class StatusBarKeyguardViewManager implements RemoteInputController.Callb
             updateNavigationBarVisibility(navBarVisible);
         }
 
-        mLockIconContainer.setVisibility((mLastLockVisible && mDozing)
-                 ? View.GONE : View.VISIBLE);
-
         if (bouncerShowing != mLastBouncerShowing || mFirstUpdate) {
             mNotificationShadeWindowController.setBouncerShowing(bouncerShowing);
             mStatusBar.setBouncerShowing(bouncerShowing);
