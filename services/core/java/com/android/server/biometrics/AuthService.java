@@ -627,7 +627,7 @@ public class AuthService extends SystemService {
         SensorConfig[] hidlConfigs;
         if (!mInjector.isHidlDisabled(getContext())) {
             final String[] configStrings = mInjector.getConfiguration(getContext());
-            final PackageManager pm = getContext().getPackageManager
+            final PackageManager pm = getContext().getPackageManager();
             boolean hasFace = false;
             hidlConfigs = new SensorConfig[configStrings.length];
             for (int i = 0; i < configStrings.length; ++i) {
