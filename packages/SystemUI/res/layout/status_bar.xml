@@ -165,4 +165,22 @@
         android:layout="@layout/emergency_cryptkeeper_text"
     />
 
+<ImageView
+    android:id="@+id/upload_arrow"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/upload_arrow"
+    android:visibility="gone" />
+
+<ImageView
+    android:id="@+id/download_arrow"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    android:src="@drawable/download_arrow"
+    android:visibility="gone" />
+    
 </com.android.systemui.statusbar.phone.PhoneStatusBarView>
